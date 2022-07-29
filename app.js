@@ -2,7 +2,7 @@
 
 
 const linkElement = document.getElementById("ar-link");
-linkElement.addEventListener("message", function (event) {
+linkElement.addEventListener("click", function (event) {
     if (event.target.value == "ar-link") {
         // Handle the user tap.
         window.open("https://www.w3schools.com");

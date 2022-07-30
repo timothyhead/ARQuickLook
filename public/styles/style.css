@@ -2,6 +2,9 @@ img {
 height: 500px;
 width: 500px;
 }
+h1 {
+  font-size: 200px;
+}
 .banner {
-  font-size: 100px;
+  background-color: blue;
 }

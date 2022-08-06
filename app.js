@@ -27,3 +27,4 @@ linkElement.addEventListener("message", function (event) {
         window.open("https://www.w3schools.com");
     }
 }, false);
+right

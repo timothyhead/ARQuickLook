@@ -13,7 +13,7 @@ linkElement.addEventListener("message", function (event) {
 const linkElement2 = document.getElementById("CustomBanner2");
 linkElement.addEventListener("message", function (event) {
   // window.open("https://www.w3schools.com");
-    if (event.data == "_apple_ar_quicklook_button_tapped") {
+    if (event.name == "cone") {
         // Handle the user tap.
         window.open("https://www.w3schools.com");
     }
